@@ -1,0 +1,17 @@
+HTML
+
+<img id='lhl-logo' src='https://cl.ly/2O3Y2w1R2j0v/Image%202016-07-20%20at%201.16.13%20PM.png' width='400' />
+
+
+JS
+// TODO:
+// 1. Select the element who's attributes you'd like to change and set it to a variable
+// 2. Change the width attribute of that element to 200 instead of the default 400 that it starts with in the HTML
+// 3. Set a 1 second delay, then change it back to 400
+
+let changeWidth = document.getElementById('lhl-logo')
+changeWidth.width = 200
+setTimeout(function() {
+  changeWidth.width = 100
+}, 1000)
+
